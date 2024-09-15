@@ -1,3 +1,5 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital@0;1&family=Rajdhani&display=swap');
 // Helpers
 @import "./sass/variables.scss";
 @import "./sass/components.scss";
@@ -5,8 +7,8 @@
 @import "./sass/layout/global-rules";
 
 body {
-  // Layout
   @import "./sass/layout/navbar";
+  // Layout
   @import "./sass/layout/footer";
   // Pages
   @import "./sass/pages/home";
