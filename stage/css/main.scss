@@ -8,8 +8,8 @@
 @import "./sass/layout/global-rules";
 
 body {
-  @import "./sass/layout/navbar";
   // Layout
+  @import "./sass/layout/navbar";
   @import "./sass/layout/footer";
   // Pages
   @import "./sass/pages/home";

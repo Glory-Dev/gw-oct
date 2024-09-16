@@ -1,0 +1,19 @@
+.primary-btn {
+  display: inline-block;
+  color: black;
+  background-color: #ddd;
+  text-decoration: underline;
+  padding: 0.3rem 1.5rem;
+  border-radius: 1rem;
+  font: {
+    size: 1.5rem;
+    weight: bold;
+    family: $body-tertiary-font;
+  }
+  transition: $trans-duration;
+
+  &:hover {
+    transform: scale(1.1);
+  background-color: #fff;
+  }
+}
