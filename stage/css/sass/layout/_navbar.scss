@@ -1,0 +1,17 @@
+.navbar {
+  background-color: $primary-blue !important;
+
+  .logo {
+    color: #ffffff !important;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .links {
+    a {
+      color: white !important;
+    }
+  }
+}

@@ -11,10 +11,11 @@ html {
     outline: none;
   }
   body {
-    // font-family: $body-primary-font;
+    color: white !important;
+    font-family: $body-primary-font;
   }
   p {
-    // font-family: $body-secondary-font;
+    font-family: $body-secondary-font;
   }
   a {
     color: inherit;
