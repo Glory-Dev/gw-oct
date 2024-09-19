@@ -1,0 +1,51 @@
+.main.program {
+  .phase-one {
+    ul {
+      list-style: disc inside;
+      padding: 0 2rem;
+
+      li {
+        padding: 0.5rem 0;
+      }
+      > li:last-child {
+        margin-top: 1rem;
+        @media (min-width: 767.98px) {
+          padding-left: 2rem;
+          border-left: 2px solid white;
+          margin-top: 0
+        }
+      }
+    }
+  }
+
+  .phase-two {
+    counter-set: hello;
+
+    .row {
+      > * {
+        counter-increment: hello;
+
+        &:last-child {
+          margin-top: 1rem;
+          @media (min-width: 767.98px) {
+            border-left: 2px solid white;
+            margin-top: 0
+          }
+        }
+      }
+
+      .counter {
+        &::before {
+          content:"0" counter(hello);
+          font: {
+            size: 2.5rem;
+            weight: bold;
+            family: $body-tertiary-font;
+          }
+          margin-right: 1.25rem;
+        }
+        transform: translateY(-10px);
+      }
+    }
+  }
+}

@@ -12,7 +12,14 @@ html {
   }
   body {
     color: white !important;
-    font-family: $body-primary-font;
+    font: {
+      size: 1.25rem;
+      family: $body-primary-font;
+    }
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: $body-tertiary-font;
+    font-weight: bold;
   }
   p {
     font-family: $body-secondary-font;
