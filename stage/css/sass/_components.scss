@@ -1,8 +1,5 @@
-.primary-btn {
+.primary-btn, .secondary-btn {
   display: inline-block;
-  color: black;
-  background-color: #ddd;
-  text-decoration: underline;
   padding: 0.3rem 1.5rem;
   border-radius: 1rem;
   font: {
@@ -10,11 +7,17 @@
     weight: bold;
     family: $body-tertiary-font;
   }
+
+}
+.primary-btn {
+  color: black;
+  background-color: #ddd;
+  text-decoration: underline;
   transition: $trans-duration;
 
   &:hover {
     transform: scale(1.1);
-  background-color: #fff;
+    background-color: #fff;
   }
 
   &.primary-btn-center {
@@ -23,6 +26,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+.secondary-btn {
+  border: 3px solid #DDD;
+  background-color: transparent;
 }
 
 .main-title {
