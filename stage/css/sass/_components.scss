@@ -43,6 +43,9 @@
   width: fit-content;
   margin: 0 auto;
   position: relative;
+  @media (max-width: 767.98px) {
+    text-align: center;
+  }
 
   $width: -50%;
   &::before, &::after {

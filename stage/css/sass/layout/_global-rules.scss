@@ -51,6 +51,9 @@ html {
     image: url("./../imgs/bg.jpg");
     size: cover;
   }
+  @media (max-width: 767.98px) {
+    background-position: 70%;
+  }
   position: relative;
   &::before {
     content: '';
